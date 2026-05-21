@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_light"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ LỚP HỌC"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="28dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:useDefaultMargins="true">
+
+        <TextView
+            android:id="@+id/boxStudent"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="👨‍🎓\nSinh viên"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:background="@drawable/bg_function_box" />
+
+        <TextView
+            android:id="@+id/boxTeacher"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="👩‍🏫\nGiảng viên"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:background="@drawable/bg_function_box" />
+
+        <TextView
+            android:id="@+id/boxSubject"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="📚\nMôn học"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:background="@drawable/bg_function_box" />
+
+        <TextView
+            android:id="@+id/boxStatistic"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="📊\nThống kê"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:background="@drawable/bg_function_box" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnAddStudent"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Thêm sinh viên"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_button_green"
+        android:layout_marginTop="28dp" />
+</LinearLayout>

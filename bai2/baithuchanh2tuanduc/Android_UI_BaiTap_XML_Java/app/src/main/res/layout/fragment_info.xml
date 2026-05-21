@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="20dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="THÔNG TIN CÁ NHÂN" android:textSize="22sp" android:textStyle="bold" android:textColor="@color/black" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Họ tên: Đinh Tuấn Đức\nLớp: CNTT K18\nEmail: dinhtuanduc41@gmail.com\nSở thích: Lập trình Android" android:textSize="17sp" android:textColor="@color/text_muted" android:lineSpacingExtra="6dp" android:layout_marginTop="14dp" />
+</LinearLayout>

@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Danh sách môn học"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Môn 1 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="6dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lập trình Java" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/black" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Số tín chỉ: 3" android:textSize="15sp" android:textColor="@color/text_muted" android:layout_marginTop="6dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Giảng viên: Nguyễn Văn A" android:textSize="15sp" android:textColor="@color/text_muted" />
+                <Button android:layout_width="wrap_content" android:layout_height="44dp" android:text="Xem chi tiết" android:textAllCaps="false" android:textColor="@color/white" android:background="@drawable/bg_button_primary" android:layout_marginTop="10dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Môn 2 -->
+        <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="14dp" app:cardCornerRadius="18dp" app:cardElevation="6dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cơ sở dữ liệu" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/black" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Số tín chỉ: 3" android:textSize="15sp" android:textColor="@color/text_muted" android:layout_marginTop="6dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Giảng viên: Trần Thị B" android:textSize="15sp" android:textColor="@color/text_muted" />
+                <Button android:layout_width="wrap_content" android:layout_height="44dp" android:text="Xem chi tiết" android:textAllCaps="false" android:textColor="@color/white" android:background="@drawable/bg_button_primary" android:layout_marginTop="10dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Môn 3 -->
+        <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="14dp" app:cardCornerRadius="18dp" app:cardElevation="6dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Thiết kế giao diện Android" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/black" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Số tín chỉ: 2" android:textSize="15sp" android:textColor="@color/text_muted" android:layout_marginTop="6dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Giảng viên: Phạm Văn C" android:textSize="15sp" android:textColor="@color/text_muted" />
+                <Button android:layout_width="wrap_content" android:layout_height="44dp" android:text="Xem chi tiết" android:textAllCaps="false" android:textColor="@color/white" android:background="@drawable/bg_button_primary" android:layout_marginTop="10dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Môn 4 -->
+        <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="14dp" app:cardCornerRadius="18dp" app:cardElevation="6dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mạng máy tính" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/black" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Số tín chỉ: 3" android:textSize="15sp" android:textColor="@color/text_muted" android:layout_marginTop="6dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Giảng viên: Lê Thị D" android:textSize="15sp" android:textColor="@color/text_muted" />
+                <Button android:layout_width="wrap_content" android:layout_height="44dp" android:text="Xem chi tiết" android:textAllCaps="false" android:textColor="@color/white" android:background="@drawable/bg_button_primary" android:layout_marginTop="10dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Môn 5 -->
+        <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="14dp" app:cardCornerRadius="18dp" app:cardElevation="6dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cấu trúc dữ liệu" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/black" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Số tín chỉ: 3" android:textSize="15sp" android:textColor="@color/text_muted" android:layout_marginTop="6dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Giảng viên: Hoàng Văn E" android:textSize="15sp" android:textColor="@color/text_muted" />
+                <Button android:layout_width="wrap_content" android:layout_height="44dp" android:text="Xem chi tiết" android:textAllCaps="false" android:textColor="@color/white" android:background="@drawable/bg_button_primary" android:layout_marginTop="10dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Môn 6 -->
+        <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="14dp" app:cardCornerRadius="18dp" app:cardElevation="6dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Phân tích thiết kế hệ thống" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/black" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Số tín chỉ: 2" android:textSize="15sp" android:textColor="@color/text_muted" android:layout_marginTop="6dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Giảng viên: Đỗ Thị F" android:textSize="15sp" android:textColor="@color/text_muted" />
+                <Button android:layout_width="wrap_content" android:layout_height="44dp" android:text="Xem chi tiết" android:textAllCaps="false" android:textColor="@color/white" android:background="@drawable/bg_button_primary" android:layout_marginTop="10dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

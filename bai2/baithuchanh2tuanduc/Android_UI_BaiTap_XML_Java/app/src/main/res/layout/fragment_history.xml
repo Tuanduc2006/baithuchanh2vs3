@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="20dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LỊCH SỬ HOẠT ĐỘNG" android:textSize="22sp" android:textStyle="bold" android:textColor="@color/black" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="• Đăng nhập lúc 08:00\n• Cập nhật hồ sơ\n• Xem danh sách môn học\n• Gửi yêu cầu liên hệ" android:textSize="17sp" android:textColor="@color/text_muted" android:lineSpacingExtra="6dp" android:layout_marginTop="14dp" />
+</LinearLayout>

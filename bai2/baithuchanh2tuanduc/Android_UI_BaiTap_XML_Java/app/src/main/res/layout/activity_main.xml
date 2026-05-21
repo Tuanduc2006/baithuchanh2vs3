@@ -1,0 +1,28 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BÀI TẬP THIẾT KẾ GIAO DIỆN"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <Button android:id="@+id/btnBai1" style="@style/MenuButton" android:text="Bài 1 - Thông tin cá nhân" />
+        <Button android:id="@+id/btnBai2" style="@style/MenuButton" android:text="Bài 2 - Form Đăng nhập" />
+        <Button android:id="@+id/btnBai3" style="@style/MenuButton" android:text="Bài 3 - Danh sách môn học" />
+        <Button android:id="@+id/btnBai4" style="@style/MenuButton" android:text="Bài 4 - Profile Fragment" />
+        <Button android:id="@+id/btnBai5" style="@style/MenuButton" android:text="Bài 5 - Quản lý lớp học" />
+    </LinearLayout>
+</ScrollView>
